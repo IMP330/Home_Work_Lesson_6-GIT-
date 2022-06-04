@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-image: url("../img/poltava_1.jpg");
+  background-size: cover;
+}
+
+.text::first-line {
+  color: rgb(214, 61, 15);
+  font-size: x-large;
+}
+
+.title_1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: azure;
+  border-radius: 100%;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  margin: 0 0;
+}
+
+nav {
+  background-color: bisque;
+  padding: 10px;
+
+}
+
+a:link {
+  color: rgb(10, 10, 10);
+}
+
+a:hover {
+  color: rgb(231, 34, 34);
+  font-size: 50px;
+}
+
+#visit {
+  display: none;
+  color: red;
+  background-color: yellow;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.div:hover #visit {
+  display: block;
+  text-align: center;
+}
+
+main section:first-child {
+  background: rgb(240, 241, 222);
+}
+
+main :nth-child(3) {
+  background: blueviolet;
+}
+
+main section:nth-child(2) p:first-child {
+  background: burlywood;
+}
+
+main section:nth-child(2) p:last-child {
+  background: rgb(45, 151, 41);
+}
+
+.nav_list>span~li {
+  background: aqua;
+}
